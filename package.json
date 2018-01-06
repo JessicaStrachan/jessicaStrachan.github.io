@@ -1,0 +1,15 @@
+{
+  "name": "jessicastrachan",
+  "version": "1",
+  "description": "myproject",
+  "main": "index.html",
+  "repository": "https://github.com/JessicaStrachan/jessicaStrachan.github.io",
+  "author": "JessicaStrachan",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-yarn": "^1.0.1"
+  },
+  "dependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}
