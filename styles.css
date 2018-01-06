@@ -1,0 +1,23 @@
+body {
+	background-image: linear-gradient(to bottom, #45B1BF 0%, #7561E6 100%);
+}
+
+.nav {
+	max-width: 100%;
+	padding: 20px;
+}
+.nav__list {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+}
+
+.nav__link {
+	color: #fff;
+	text-decoration: none;
+	transition: text-decoration .3s ease;
+}
+
+.nav__link:hover {
+	text-decoration: underline;
+}
