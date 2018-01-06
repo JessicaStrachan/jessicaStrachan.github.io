@@ -68,6 +68,47 @@ body {
 	background-image: linear-gradient(to bottom, #45B1BF 0%, #7561E6 100%);
 }
 
+/*Variables*/
+:root {
+  --base-font-family: 'Open Sans', sans-serif;
+  --heading-font-family: 'Nixie One', cursive;
+  --base-letter-spacing: 0;
+  --base-line-height: 1.2;
+}
+
+/*Typography*/
+.heading--one,
+.heading--two,
+.heading--three,
+.heading--four {
+  font-family: var(--heading-font-family);
+  line-height: var(--base-line-height);
+  letter-spacing: var(--base-letter-spacing);
+}
+
+.heading--one {
+  font-size: 30px;
+}
+
+.heading--two {
+  font-size: 22px;
+}
+
+.heading--three {
+  font-size: 18px;
+}
+
+.heading--four {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--base-font-family);
+  line-height: var(--base-line-height);
+  letter-spacing: var(--base-letter-spacing);
+}
+  
+
 .nav {
 	max-width: 100%;
 	padding: 20px;
